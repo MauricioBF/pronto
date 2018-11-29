@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+    <link rel="stylesheet" href="css/main.css">
+    <title>Episódios</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Cartoon Funny</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="desenho.html">Desenhos</a></li>
+                    <li class="active"><a href="episodio.html">Episodio</a></li>
+                    <li><a href="personagem.html">Personagem</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">  
+        <h1 class="title">Episódios cadastrados</h1><br><br>
+        <div class="main">
+                <table class="table table-striped">
+                    <tr>
+                        <td class="nome">nome</td>
+                        <td class="temporada">temporada</td>
+                        <td class="ID">id</td>
+                        <td class="sinopse">sinopse</td>
+                        <td class="duracao">duração</td>
+                        <td class="data">data</td>
+                    </tr>
+                    <tr id="id">
+                        <td class="nome">exemplo1</td>
+                        <td class="temporada">temporada1</td>
+                        <td class="ID">12</td>
+                        <td class="sinopse">filme de terror</td>
+                        <td class="duracao">140min</td>
+                        <td class="data">05/09/2014</td>
+                        <td class="alterar"><a href="alterar.html"><button type="button" class="btn btn-primary alterar">alterar</button></a></td>
+                    </tr>
+                    <tr id="id2">
+                        <td class="nome">exemplo2</td>
+                        <td class="temporada">temporada2</td>
+                        <td class="ID">18</td>
+                        <td class="sinopse">filme de suspense</td>
+                        <td class="duracao">11min</td>
+                        <td class="data">10/28/2019</td>
+                        <td class="alterar"><a href="alterar.html"><button type="button" class="btn btn-primary alterar">alterar</button></a></td>
+                    </tr>
+                    <tr id="id3"><tr id="id">
+                        <td class="nome">exemplo3</td>
+                        <td class="temporada">temporada4</td>
+                        <td class="ID">13</td>
+                        <td class="sinopse">filme adulto</td>
+                        <td class="duracao">35min</td>
+                        <td class="data">01/01/2001</td>
+                        <td class="alterar"><a href="alterar.html"><button type="button" class="btn btn-primary alterar">alterar</button></a></td>
+                    </tr>
+                    <tr id="id4">
+                        <td class="nome">exemplo5</td>
+                        <td class="temporada">temporada3</td>
+                        <td class="ID">14</td>
+                        <td class="sinopse">filme de aventura</td>
+                        <td class="duracao">50min</td>
+                        <td class="data">15/22/2017</td>
+                        <td class="alterar"><a href="alterar.html"><button type="button" class="btn btn-primary alterar">alterar</button></a></td>
+                    </tr>
+                </table>
+                <a href="criar.html"><button type="button" class="btn btn-success aaa">adicionar novo episódio</button></a>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
